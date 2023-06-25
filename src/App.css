@@ -107,9 +107,20 @@
 }
 
 
+
 @media screen and (max-width: 480px) {
   .wheater {
     width: 300px;
+  }
+
+  .search input {
+    padding: 12px 20px; /* Ajusta el tamaño del padding */
+    font-size: 16px; /* Ajusta el tamaño de la fuente */
+  }
+
+  .search button {
+    width: 40px; /* Ajusta el tamaño del botón */
+    height: 40px;
   }
 
   .info h1 {
